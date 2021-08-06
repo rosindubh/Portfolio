@@ -62,9 +62,10 @@ main {
                                    main was declared before aside
                                    you could just write them the other way round*/
     
+    
 }
 .main-content {
-    /*background-color: lightskyblue;*/
+    background-color: lightskyblue;
     flex: 3; /*align text to the centre*/
     display: flex; /*align text to the centre*/
     align-items:center; /*align text to the centre*/
@@ -101,6 +102,10 @@ main {
 .aside {
     background-color: rgb(232, 233, 167);
     flex: 0.8;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: red;
 }
 .btn {
     padding: 13px 28px; /*set padding around button 13 height 28 width*/
