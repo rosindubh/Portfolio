@@ -23,7 +23,7 @@ body {
 if more than one image would need to use a class*/
 img {
     height: 100px; /*set height of image picture of me in nav bar*/
-    padding: 10px  10px ; /*set padding around image*/
+    padding: 15px  10px ; /*set padding around image*/
 }
 
 .nav-links {
@@ -78,31 +78,34 @@ main {
     margin-bottom: 30px; /*set padding between paragraph and h1 heading in main content*/
 }
 
-.main-content p {
-    width: 80%; /*set width of the text in the paragraph in main content*/
-    margin-bottom: 30px;
+.margin-h3 {
+    margin-bottom: 20px;
 }
-
-.karate {
-    width: 500px;
+.main-content p {
+    /*width: 80%; /*set width of the text in the paragraph in main content*/
+    margin-bottom: 70px;
+    
 }
 
 .music {
     width: 500px;
+    padding-left: 80px;
 }
 
 .computers {
     width: 500px;
+    padding-left: 80px;
 }
 
 .hifi {
     width: 500px;
+    padding-left: 80px;
 }
 
 /*SIDEBAR*/
 .aside {
     background-color: rgb(232, 233, 167);
-    flex: 0.8;
+    flex: 0.3;
     font-size: 25px;
     padding-top: 20px;
     padding-left: 10px;
@@ -128,14 +131,17 @@ main {
 }
 
 .box1 {
-    background-color: khaki;
+    /*background-color: khaki;*/
     padding-top: 20px;
     height: 80vh;
     align-self: flex-start;
+
 }
 
-.box1 p {
-    justify-content: center;
+p {
+    /*background-color: lightsalmon;*/
+
+
 }
 
 
