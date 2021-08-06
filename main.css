@@ -22,7 +22,7 @@ body {
 /* RESIZE LOGO USING img AS ONLY ONE IMAGE ON PAGE
 if more than one image would need to use a class*/
 img {
-    height: 100px; /*set height of image*/
+    height: 100px; /*set height of image picture of me in nav bar*/
     padding: 10px  10px ; /*set padding around image*/
 }
 
@@ -51,6 +51,9 @@ a {
 
 /*MAIN STYLING*/
 
+h4 {
+    color: blue;
+}
 main {
     /*background-color: rgb(211, 190, 210);*/
     height: 80vh; /*set height of main section of page*/
@@ -58,15 +61,16 @@ main {
     flex-direction: row-reverse; /*changes order of main and aside because
                                    main was declared before aside
                                    you could just write them the other way round*/
+    
 }
 .main-content {
     /*background-color: lightskyblue;*/
     flex: 3; /*align text to the centre*/
     display: flex; /*align text to the centre*/
-    justify-content: center; /*align text to the centre*/
     align-items:center; /*align text to the centre*/
     flex-direction: column; /*align text to the centre*/
     text-align: center; /*align text to the centre*/
+
 }
 
 .main-content h1 {
@@ -76,6 +80,22 @@ main {
 .main-content p {
     width: 80%; /*set width of the text in the paragraph in main content*/
     margin-bottom: 30px;
+}
+
+.karate {
+    width: 500px;
+}
+
+.music {
+    width: 500px;
+}
+
+.computers {
+    width: 500px;
+}
+
+.hifi {
+    width: 500px;
 }
 
 .aside {
@@ -107,4 +127,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+/*COPYRIGHT*/
+.copyright {
+    padding-top: 10px;
 }
