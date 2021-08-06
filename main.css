@@ -65,7 +65,7 @@ main {
     
 }
 .main-content {
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
     flex: 3; /*align text to the centre*/
     display: flex; /*align text to the centre*/
     align-items:center; /*align text to the centre*/
@@ -123,6 +123,15 @@ main {
     border-radius: 0; /*makes button change from rounded edges to square*/
     background-color: rgba(217, 208, 222 1); /*sets density of button when hovered over*/
 }
+
+.box1 {
+    background-color: khaki;
+    padding-top: 20px;
+    height: 80vh;
+    align-self: flex-start;
+}
+
+
 
 
 /* FOOTER STYING */
