@@ -99,14 +99,17 @@ main {
     width: 500px;
 }
 
+/*SIDEBAR*/
 .aside {
     background-color: rgb(232, 233, 167);
     flex: 0.8;
-    font-size: 40px;
+    font-size: 25px;
     padding-top: 20px;
     padding-left: 10px;
     color: red;
 }
+
+/*BUTTON*/
 .btn {
     padding: 13px 28px; /*set padding around button 13 height 28 width*/
     background-color: rgba(217, 208, 222 1); /*set background colour of button*/
@@ -131,6 +134,9 @@ main {
     align-self: flex-start;
 }
 
+.box1 p {
+    justify-content: center;
+}
 
 
 
