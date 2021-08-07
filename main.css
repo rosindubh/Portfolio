@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,12 +15,15 @@ body {
 
 /*NAV STYLING*/
 .nav {
-    box-shadow: -3px 22px 15px -19px #000000;
-    height: 5vh; /*set height of header*/
+    box-shadow: -3px 22px 15px -29px #000000;
+    height: 60px; /*set height of header*/
     display: flex; /*set 2 items in header next to each other*/
     justify-content: space-between; /*maximise space between the 2 items*/
-    align-items: center; /*puts items in the centre of the navigation bar*/
+    align-items: flex-end; /*puts items in the centre of the navigation bar*/
+    flex-direction: column;
+
 }
+
 
 /* RESIZE LOGO USING img AS ONLY ONE IMAGE ON PAGE
 if more than one image would need to use a class*/
@@ -34,11 +38,16 @@ img {
 
 .nav-list {
     list-style: none; /*remove bullit points from list in header*/
+    padding-top: 15px;
+    font-family: 'Oswald';
+    font-size: 20px;
 }
+
 
 .nav-list li{
     display:inline-block; /* puts list in header in a horizontal line as opposed to a vertical list*/
     transition:  0.3 ease-in-out;
+    padding-right: 20px;
 }
 
 a {
@@ -113,13 +122,20 @@ main {
     background-color: rgb(232, 233, 167);
     flex: 0.3;
     font-size: 25px;
-    padding-top: 20px;
     padding-left: 10px;
+}
+
+.aside h5 {
+    color:black;
+    font-family: 'Oswald';
+    padding-top: 15px;
+    
+    
 }
 
 .codenationLogo img{
     width: 150px;
-    height: 50px;
+    height: 60px;
     
 }
 
