@@ -13,7 +13,6 @@ body {
 }
 
 /*NAV STYLING*/
-
 .nav {
     box-shadow: -3px 22px 15px -19px #000000;
     height: 10vh; /*set height of header*/
@@ -50,6 +49,10 @@ a {
 .nav-list li:hover { /*causes text to change weight when hovered over*/
     font-weight: 600; /*set weight of fonts in nav bar*/
 
+}
+
+.codenationLogo a {
+    display: flex;
 }
 
 /*MAIN STYLING*/
@@ -112,7 +115,16 @@ main {
     font-size: 25px;
     padding-top: 20px;
     padding-left: 10px;
-    color: red;
+}
+
+.codenationLogo img{
+    width: 150px;
+    height: 50px;
+    
+}
+
+.sideTitle {
+    padding-left: 15px;
 }
 
 /*BUTTON*/
@@ -151,7 +163,7 @@ p {
 
 /* FOOTER STYING */
 footer {
-    /*background-color: lightyellow;*/
+    background-color:dimgray;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -162,4 +174,7 @@ footer {
 /*COPYRIGHT*/
 .copyright {
     padding-top: 10px;
+    color: floralwhite;
+    font-size: 8px;
 }
+
