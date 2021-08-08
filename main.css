@@ -21,7 +21,6 @@ body {
     justify-content: space-between; /*maximise space between the 2 items*/
     align-items: flex-end; /*puts items in the centre of the navigation bar*/
     flex-direction: column;
-
 }
 
 .nav-list h1 {
@@ -155,6 +154,7 @@ main {
     box-sizing: border-box ;
 }
 
+/*set area around photo to centre it for spin + change mouse pointer*/
 .photo{
     /*background-color: black;*/
     width: 75px;
@@ -165,8 +165,13 @@ main {
     border-radius: 1px;
 }
 
-.photo:hover{
-    transform: rotateZ(720deg);
+/*rotate photo*/
+.photo:hover {
+    transform: rotateZ(720deg);  
+}
+/*put curved corners on photo*/
+.photo img:hover{
+    border-radius: 50%;
 }
 
 /*codenation animation css
