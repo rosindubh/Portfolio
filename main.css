@@ -23,8 +23,10 @@ body {
     flex-direction: column;
 }
 
-.nav-list h1 {
+/*my name in nav bar - NOTE: need to move to left start position*/
+.myname {
     background-color: chartreuse;
+    display: flex;
 }
 
 /* RESIZE LOGO USING img AS ONLY ONE IMAGE ON PAGE
@@ -174,7 +176,7 @@ main {
     border-radius: 50%;
 }
     
-    #cnlogo {
+    #animi {
       /* this controls the animation */
       animation-name: logoanimation;
       animation-duration: 1.5s;
