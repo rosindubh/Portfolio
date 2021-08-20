@@ -207,7 +207,8 @@ img .lola {
     left: 30px;
     animation-name: moveUp;
     animation-duration: 3s;
-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    height: 10px;
 }
 
 .lola {
@@ -243,6 +244,11 @@ animation-iteration-count: infinite;
     height: 80vh;
     align-self: flex-start;
 
+}
+
+.box1 .lola {
+    height: 50px;
+    width: 100px;
 }
 
 p {
