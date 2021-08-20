@@ -6,8 +6,9 @@
 }
 /*background image of blue water*/
 .background {
-background-image: url(./images/portfolioBackground.jpg);
+    background-image: url(./images/sword.JPG);
 }
+
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
