@@ -16,6 +16,7 @@ body {
 
 /*NAV STYLING*/
 .nav {
+    background-color: goldenrod;
     box-shadow: -3px 22px 15px -29px #000000;
     height: 70px; /*set height of header*/
     display: flex; /*set 2 items in header next to each other*/
@@ -192,7 +193,7 @@ main {
         width: 100px;
       }
       to {
-        opacity: 80%;
+        opacity: 100%;
         width: 160px;
       }
     }
