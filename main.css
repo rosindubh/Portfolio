@@ -91,7 +91,6 @@ main {
     flex: 3; /*align text to the centre*/
     display: flex; /*align text to the centre*/
     align-items:center; /*align text to the centre*/
-    flex-direction: column; /*align text to the centre*/
     text-align: center; /*align text to the centre*/
 
 
