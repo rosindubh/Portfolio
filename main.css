@@ -6,6 +6,7 @@
 }
 /*background image of blue water*/
 .background {
+    width: 100vw;
     background-image: url(./images/sword.JPG);
 }
 
@@ -18,9 +19,9 @@ body {
 .nav {
     background-color: goldenrod;
     box-shadow: -3px 22px 15px -29px #000000;
-    height: 70px; /*set height of header*/
+    height: 15vh; /*set height of header*/
     display: flex; /*set 2 items in header next to each other*/
-    justify-content: space-between; /*maximise space between the 2 items*/
+    justify-content: center; /*maximise space between the 2 items*/
     align-items: flex-end; /*puts items in the centre of the navigation bar*/
     flex-direction: column;
 }
@@ -77,7 +78,7 @@ h4 {
 }
 main {
     /*background-color: rgb(211, 190, 210);*/
-    height: 80vh; /*set height of main section of page*/
+    height: 75vh; /*set height of main section of page*/
     display: flex;
     flex-direction: row-reverse; /*changes order of main and aside because
                                    main was declared before aside
@@ -92,6 +93,7 @@ main {
     align-items:center; /*align text to the centre*/
     flex-direction: column; /*align text to the centre*/
     text-align: center; /*align text to the centre*/
+
 
 }
 
@@ -126,9 +128,9 @@ main {
 /*SIDEBAR*/
 .aside {
     background-color: rgb(232, 233, 167);
-    flex: 0.3;
+    flex: 0.4;
     font-size: 25px;
-    padding-left: 10px;
+    padding-left: 60px;
 }
 
 .aside h5 {
@@ -200,13 +202,12 @@ main {
 
 /* ANIMATION OF LOLA*/
 img .lola {
-    background-color: rgb(232, 233, 167);
-
+    /*background-color: rgb(232, 233, 167);*/
 }
 .lola {
     position: absolute;
-    top: 500px;
-    left: 30px;
+    top: 600px;
+    left: 75px;
     animation-name: moveUp;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -219,7 +220,7 @@ img .lola {
 
 @keyframes moveUp {
     from{transform: translateY(-200px);}
-    to{transform: translateY(130px);}
+    to{transform: translateY(-140px);}
 }
 
 /*BUTTON*/
@@ -241,7 +242,6 @@ img .lola {
 }
 
 .box1 {
-    /*background-color: khaki;*/
     padding-top: 20px;
     height: 80vh;
     align-self: flex-start;
@@ -264,7 +264,7 @@ p {
 /* FOOTER STYING */
 footer {
     background-color:dimgray;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
