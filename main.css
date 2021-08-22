@@ -19,7 +19,7 @@ body {
 .nav {
     background-color: goldenrod;
     box-shadow: -3px 22px 15px -29px #000000;
-    height: 15vh; /*set height of header*/
+    height: 10vh; /*set height of header*/
     display: flex; /*set 2 items in header next to each other*/
     justify-content: center; /*maximise space between the 2 items*/
     align-items: flex-end; /*puts items in the centre of the navigation bar*/
@@ -78,7 +78,7 @@ h4 {
 }
 main {
     /*background-color: rgb(211, 190, 210);*/
-    height: 75vh; /*set height of main section of page*/
+    height: 80vh; /*set height of main section of page*/
     display: flex;
     flex-direction: row-reverse; /*changes order of main and aside because
                                    main was declared before aside
@@ -92,8 +92,6 @@ main {
     display: flex; /*align text to the centre*/
     align-items:center; /*align text to the centre*/
     text-align: center; /*align text to the centre*/
-
-
 }
 
 .main-content h1 {
