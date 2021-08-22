@@ -150,6 +150,9 @@ main {
     padding-left: 15px;
 }
 
+.photo img{
+    border-radius: 25px;
+}
 /*SPINNING LOGO*/
 .wrapper{
     width: 100%;
